@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box
+}
+
+/* Set height of body and the document to 100% */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
+
+body {
+  font-family: 'Baloo Bhai 2', 'cursive';
+  font-weight: 300;
+  margin: 0;
+
+}
+
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    border-bottom: 5px rgb(255, 17, 183);
+}
+.tabcontenth3{
+    color: rgb(3, 3, 3);
+    font-size: 2.8rem;
+    padding-top: 50px;
+    font-family: 'Baloo Bhai 2';
+    text-transform: uppercase;
+}
+.tabcontentp{
+    color: rgb(3, 3, 3);
+    font-size: 1.6rem;
+    font-family: 'Baloo Bhai 2';
+}
+@media screen and (max-width: 992px){
+    .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 100%;
+}
+.tabcontenth3 {
+    color: rgb(3, 3, 3);
+    font-size: 2.8rem;
+    padding-top: 155px;
+    font-family: 'Baloo Bhai 2';
+    text-transform: uppercase;
+}
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 20px 20px;
+    /* height: 100%; */
+}
+
+#Website-Design {
+    background-color: rgb(247, 177, 235);
+}
+
+#Website-Development {
+    background-color: rgb(163, 97, 224);
+}
+
+#eCommerce-Technologies {
+    background-color: rgb(112, 147, 230);
+}
+#Design-and-Branding {
+    background-color: rgb(140, 235, 228);
+}
+
+/* TABCONTENTBOX BOX */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: -25px;
+    }
+}
+
+/* Style the counter tabcontentboxs */
+.tabcontentbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    border-color: 10px rgb(34, 33, 36);
+}
+.tabcontentboxh3{
+    color: rgb(3, 3, 3);
+    font-size: 2.2rem;
+    font-family: 'Baloo Bhai 2';
+    text-transform: uppercase;
+}
+.tabcontentboxp{
+    color: rgb(3, 3, 3);
+    font-size: 1.8rem;
+    font-family: 'Baloo Bhai 2';
+text-align: center;
+}
+.tabcontentbox span{
+    color: rgb(253, 253, 253);
+    padding: 5px;
+    background-color: rgb(121, 18, 104);
+    display: inline-block;
+    padding-right: 3px;
+    /* vertical-align: middle; */
+    font-weight: 900;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px 10px 5px;
+    border-radius: 100%;
+}
+.tabcontentbox span i {
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    border-radius: 100%;
+    display: block;
+    padding: 12px 10px;
+    text-align: center;
+}

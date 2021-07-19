@@ -1,0 +1,1047 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
+html {
+  font-size: 65%;
+}
+
+body {
+  font-family: 'Baloo Bhai 2', 'cursive';
+  font-weight: 300;
+  background-image: -webkit-linear-gradient(180deg, #a2f1ed 50%, #7edff3 50%);
+
+}
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+a:hover {
+  color: #9ffff2;
+}
+
+.time {
+  font-size: 15px;
+  text-align: center;
+  background-color: yellow;
+  font-weight: 300;
+  color: black;
+}
+
+.main_header {
+  background: #030335;
+  font-size: 15px;
+  color: white;
+  line-height: 5rem;
+}
+
+.main_header .navbar-brand {
+  color: rgb(45, 184, 240);
+  font-size: 25px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 20%;
+  padding-bottom: 20px;
+}
+
+.logoimage {
+  border-radius: 50%;
+  position: relative;
+  -webkit-animation: SGUPTAGROUP 3s linear infinite;
+          animation: SGUPTAGROUP 3s linear infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes SGUPTAGROUP {
+  from {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes SGUPTAGROUP {
+  from {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.main_header .logobrand {
+  padding: 20px 2opx;
+}
+
+.main_header .navbar-brand:hover {
+  color: #db39c0;
+}
+
+.navbar-nav {
+  padding-right: 15rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.8rem;
+  color: white;
+  padding: 2px 15px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #4db9eb;
+}
+
+.main_header .d-flex {
+  color: #28a4ec;
+}
+
+.main_header .d-flex .btn {
+  color: white;
+  font-size: 1.8rem;
+  border-color: #48a7e6;
+  border-radius: 20px;
+}
+
+.main_header .d-flex .btn:hover {
+  color: #fbfeff;
+  background: #49a7e6;
+}
+
+.navbar-toggler-main-icon{
+  display: inline-block;
+  width: 3.5rem;
+  height: 0.2em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background: #11efd0;
+}
+
+/* ****************************************Home Top****************************************************************************** */
+
+.home-top {
+  padding: 30px 30px;
+  width: 100%;
+  height: 80%;
+  background-image: -webkit-linear-gradient(297deg, #011a2e 30%, #630766 52%);
+}
+
+.home-top .hometopimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.home-top .hometopimage:hover {
+  border-width: 20Px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #ca2da3;
+}
+
+.h2-primary {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #cdd4df;
+  line-height: 100%;
+  font-weight: 400;
+  padding: 27px 5px;
+}
+
+.h1-primary .span {
+  color: #e054ec;
+}
+
+.h1-primary {
+  position: relative;
+  color: #fff;
+  font-size: 4rem;
+  padding: 3px 3px;
+  text-align: center;
+  -webkit-animation: h1-primary 3s linear infinite;
+          animation: h1-primary 3s linear infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes h1-primary {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes h1-primary {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+.p-primary {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.home-top .btntophome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+}
+
+.contactmebtnhome {
+  border-radius: 25px;
+  font-size: 1.8rem;
+  width: 165px;
+  height: 45px;
+  color: white;
+  -webkit-box-shadow: #0c4ba8;
+          box-shadow: #0c4ba8;
+  border-color: #042746;
+  border-width: 5px;
+  background-color: #ea6dee;
+  text-align: center;
+  padding: 10px;
+}
+
+.contactmebtnhome:hover {
+  background: #085bf7;
+}
+/* ********************************************Home page Top 2***************************************************** */
+.hometop2 {
+  width: 100%;
+  height: 100%;
+  padding: 30px 30px;
+  background-color: #ffffff;
+  border-bottom: #042746;
+}
+
+.hometop2 .row2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+.knowledge-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.img-knowldge{
+width: 100px;
+height: 60px;
+margin: 5px 5px;
+}
+.box1 {
+  border: 5px solid rgb(121, 14, 153);
+  padding: 15px;
+  margin: 6px;
+  border-radius: 35px;
+  background-color: rgb(6, 33, 68);
+  text-align: center;
+  -webkit-box-shadow: 5px 10px #7dbff5;
+          box-shadow: 5px 10px #7dbff5;
+}
+
+.box1 .image2 {
+  padding: 10px 10px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box2 {
+  border: 5px solid rgb(121, 14, 153);
+  padding: 15px;
+  margin: 6px;
+  background-color: rgb(6, 33, 68);
+  border-radius: 35px;
+    text-align: center;
+  -webkit-box-shadow: 5px 10px #7dbff5;
+          box-shadow: 5px 10px #7dbff5;
+}
+
+.box2 .image2 {
+  padding: 10px 10px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box3 {
+  border: 5px solid rgb(121, 14, 153);
+  padding: 15px;
+  margin: 6px;
+  border-radius: 35px;
+  background-color: rgb(6, 33, 68);
+  text-align: center;
+  -webkit-box-shadow: 5px 10px #7dbff5;
+          box-shadow: 5px 10px #7dbff5;
+}
+
+.box3 .image2 {
+  padding: 10px 10px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box4 {
+  border: 5px solid rgb(121, 14, 153);
+  padding: 15px;
+  margin: 6px;
+  border-radius: 35px;
+  background-color: rgb(6, 33, 68);
+  text-align: center;
+  -webkit-box-shadow: 5px 10px #7dbff5;
+          box-shadow: 5px 10px #7dbff5;
+}
+
+.box4 .image2 {
+  padding: 10px 10px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ********************************************Home page Top 3***************************************************** */
+
+.hometop3{
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(90deg, #400552 0%, #5a099c 100%);
+  border-bottom: 5px #042746;
+}
+.container3{
+  width: 100%;
+  height: 100%;
+  padding: 35px 0px;
+  background-image: -webkit-linear-gradient(297deg, #011a2e 30%, #630766 52%);
+}
+.image3 {
+  padding: 34px 34px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p3-primary{
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-left: 60px;
+  color: rgb(245, 245, 245);
+}
+.hometop3h2{
+  text-align: left;
+  font-weight: 700;
+  font-size: 34px;
+  color: #28a4ec;
+  padding: 15px 0px;
+  margin: 0px 5px;
+}
+.hometop3span{
+  font-weight: 300;
+  font-size: 34px;
+  color: #ec28c1;
+}
+.hometop3h3{
+  text-align: left;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #b5b4eb;
+  padding: 10px;
+}
+.hometop3h3:hover{
+  color: #ec28c1;
+}
+.h2-primary3{
+  text-align: left;
+  font-weight: 800;
+  color: white;
+  padding: 10px;
+  font-size: 2.5rem;
+}
+.p3-primary1{
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 1.6rem;
+}
+.row3{
+  padding: 15px 0px;
+}
+.icon-box{
+  margin-top: 25px;
+}
+.hometop3img{
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 250px;
+}
+/* ********************************************Home page Top 4***************************************************** */
+.hometop4{
+  width: 100%;
+  height: 100%;
+  padding: 40px 0px;
+  background-image: -webkit-linear-gradient(280deg, #f3d3e8 30%, #fffdff 52%);
+}
+.card {
+  border: 0;
+  padding: 0 30px;
+  margin-bottom: 60px;
+  position: relative;
+  background: transparent;
+
+}
+.card-body {
+  z-index: 10;
+  background: #fff;
+  border-top: 4px solid #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  margin-top: -60px;
+  transition: 0.3s;
+  
+}
+.card:hover .card-body {
+  border-color: #861069;
+}
+.card-img {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  overflow: hidden;
+  z-index: 9;
+  border-radius: 0;
+}
+.p4-primary{
+  text-align: center;
+  font-weight: 800;
+  color: rgb(16, 5, 78);
+  padding: 10px;
+  font-size: 1.4rem;
+}
+.h3-primary4{
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.h3-primary4 a{
+  color: #861069;
+  font-size: 25px;
+}
+.read-more a{
+  color: #585056;
+  font-size: 15px;
+}
+.h2-primary4{
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;;
+  color: #861069;
+  padding: 10px;
+}
+.hometop4hr{
+  width: 50%;
+  color: #d4e9f5;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+
+}
+.imageicon{
+  height: 20px;
+  display: block;
+}
+.hometop3row{
+  margin: 0px 5px;
+}
+/* ***********************************************login page********************************************************************************************************** */
+#logintop{
+    background: #030335;
+    height: 100%;
+    margin: 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+.hometopimage1 {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  }
+  .hometopimage1:hover{
+    border-width: 20Px;
+    border-style: solid;
+    border-radius: 50%;
+    color: #e1fa04;
+  }
+.logging-form{
+    background-color: rgb(248, 240, 240);
+    margin-top: 30%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 30%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 36px 5px rgb(233, 231, 146);
+    font-size: 1.8rem;
+}
+.loginrighttext{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2px 15px auto 15px;
+    padding: 10px;
+    font-style: italic;
+    color: white;
+
+}
+.forgotpass{
+  text-align: center;
+  color: red;
+}
+.forgotpass a{
+  text-align: center;
+  color: red;
+}
+.loginsignup{
+  margin: 25px;
+  text-align: center;
+
+}
+.loginsignup .p{
+text-align: center;
+}
+.loginimage{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: auto;
+margin-right: auto;
+padding: 10px 10px;
+}
+#formstyle{
+  border-radius: 15px;
+  font-size: 1.8rem;
+}
+#entrybutton{
+  padding: 10px 15px;
+  font-size: 1.8rem;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #030335;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.errmsg{
+  margin: 2px auto;
+  border-radius: 5px;
+  border: 1px solid red;
+  background: pink;
+  text-align: left;
+  color: brown;
+  padding: 1px;
+}
+#registerdone{
+  font-size: 1.8rem;
+  padding: 15px;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* *********************************************************service Section*************************************************************************** */
+#websection{
+  background-color: white;
+  padding: 10px;
+}
+.text-link{
+  color: rgb(5, 5, 54);
+  font-size: 2.5rem;
+  text-decoration: none!important;
+  font-family: 'Baloo Bhai 2', cursive;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+.text-link:hover{
+  color: rgb(226, 43, 98);
+}
+.textheading{
+  color: rgb(226, 43, 98);
+  font-size: 3rem;
+  text-decoration: none!important;
+  font-family: 'Baloo Bhai 2', cursive;
+  margin-top: 15px;
+}
+.ptext{
+  font-size: 1.4rem;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.buttonlink{
+  color: crimson;
+  padding: 5px 5px;
+  font-size: 1.8rem;
+}
+.buttonlink:hover{
+  color: rgb(31, 31, 221);
+}
+.btn-group{
+  text-decoration: none;
+  padding: 0px;
+list-style: none;
+}
+.btn-group li{
+  margin: 0px 10px 10px 10px;
+}
+.btn-front{
+  background-color: crimson;
+  padding: 0 50px;
+    height: 50px;
+    line-height: 47px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-front a{
+color: white;
+}
+.btn-front a:hover{
+  color: rgb(108, 186, 250);
+}
+.btn-front-second{
+  background-color: rgb(101, 12, 218);
+  padding: 0 50px;
+  height: 50px;
+  line-height: 47px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn-front-second a{
+color: white;
+}
+.btn-front-second a:hover{
+  color: rgb(108, 186, 250);
+}
+
+/* ************************************************************ecommerce page******************************************************************** */
+
+.inner-page-banner-bg{
+  background-image: -webkit-linear-gradient(297deg, #011a2e 30%, #630766 52%);
+}
+.banner-inr{
+ padding: 35px 0px;
+}
+.ecommerceimage{
+  height: 150px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#ecommercetop .pcommerceprimary{
+  color: white;
+  font-size: 20px;
+}
+
+
+.inner-page-banner .banner-right-image .platform-position{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* ********************************************************Footer**************************************************************************** */
+.footerbg{
+  background: #464644f7;
+}
+.footer1{
+  margin: 45px 10px;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.footer2{
+  margin: 45px 10px;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.footer3{
+  margin: 12px auto;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.footerbottom{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #00000c;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.imagefoot {
+  padding: 5px 5px;
+  width: 30px;
+  height: 30px;
+}
+.footertext{
+  color: #ded8d8;
+}
+.footertext:hover{
+  color: #28a4ec;
+}
+.foot3{
+  margin: 45px 10px;
+}
+.footertextbottom{
+  color: rgb(20, 19, 19);
+  font-size: 1.8rem;
+  text-align: center;  
+
+}
+.bottomfooter {
+  background-color: rgb(199 197 180);
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding: 35px;
+}
+.mobilefooter{
+  display: none;
+ }
+.mobilefotterabove{
+  display: none;
+}
+.footertextbottommobile{
+  color: whitesmoke;
+  font-size: 1.8rem;
+  text-align: center;
+}
+/* ***************************************************************Mailchamp subscription Form******************************************************** */
+.emailform {
+  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
+  font-size: 15px;
+  border: 10px solid #0d6efd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 30px;
+  color: #343434;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 0px 0.4em;
+  display: inline-block;
+  margin: 13px;
+  vertical-align: top;
+}
+.mailfromtext{
+  color: whitesmoke;
+}
+.buttonmailform{
+  font-size: 13px;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 20px;
+  letter-spacing: .03em;
+  color: #fff;
+  background-color: #196ee2;
+  box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 18px;
+  display: inline-block;
+  margin: 0;
+  transition: all 0.23s ease-in-out 0s;
+}
+.buttonmailform:hover{
+  background-color: #ac27b1;
+  cursor: pointer;
+}
+
+/* Mobile version */
+
+
+@media (max-width: 1200px) {
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1.8rem;
+    color: white;
+    padding: 2px 12px;
+  }
+  .main_header {
+    font-size: 15px;
+  }
+  
+}
+@media (max-width: 1200px) {
+.mobilefooter{
+  display: block;
+ }
+ .mobilefotterabove{
+  display: block;
+}
+
+}
+@media (min-width: 1200px) {
+  .navbarmobile{
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid #4689e0;
+    border-radius: .25rem;
+    -webkit-transition: -webkit-box-shadow .15s ease-in-out;
+    transition: -webkit-box-shadow .15s ease-in-out;
+    transition: box-shadow .15s ease-in-out;
+    transition: box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  }
+  
+  /* .navbardesktop{
+    display: none;
+  } */
+  .main_header {
+    background: #030335;
+    font-size: 15px;
+    color: white;
+    line-height: 4rem;
+  }
+  .bottomfooter {
+    background-color: yellow;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding: 25px;
+  }
+  /* .bottomfooter {
+    display: none;
+  } */
+  /* .footerbg{
+    display: none;
+  } */
+  /* .mobilefooter{
+    background-color: yellow;
+  font-size: 1.4rem;
+  text-align: center; 
+  }
+  .mobilefotterabove{
+    text-align: center;
+    background-color: #303333;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 15px;
+  } */
+  /* ***********************************************Mailchamp Email Footer for size 992 to 1199*********************************************************** */
+  .emailform {
+    font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
+    font-size: 15px;
+    border: 10px solid #0d6efd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 30px;
+    color: #343434;
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0px 0.4em;
+    display: inline-block;
+    margin: 13px;
+    vertical-align: top;
+  }
+  .mailfromtext{
+    color: whitesmoke;
+  }
+  .buttonmailform{
+    font-size: 13px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 20px;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: #196ee2;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 22px;
+    transition: all 0.23s ease-in-out 0s;
+  }
+}
+  
+
+@media only screen and (max-width: 1199px) {
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid #4689e0;
+    border-radius: .25rem;
+    -webkit-transition: -webkit-box-shadow .15s ease-in-out;
+    transition: -webkit-box-shadow .15s ease-in-out;
+    transition: box-shadow .15s ease-in-out;
+    transition: box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  }
+  .btn-group{
+    display: block;
+    text-align: center;
+  }
+
+  .navbardesktop{
+    display: none;
+  }
+  .main_header {
+    background: #030335;
+    font-size: 15px;
+    color: white;
+    line-height: 4rem;
+  }
+  .hometop2 .row2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .bottomfooter {
+    display: none;
+  }
+  .mobilefotterabove{
+    text-align: center;
+    background-color: #303333;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 15px;
+  }
+  .mobilefooter{
+    background-color: yellow;
+  font-size: 1.4rem;
+  text-align: center; 
+  }
+  .footerbg{
+    display: none;
+  }
+
+    /* ***********************************************Mailchamp Email Footer for size below 992*********************************************************** */
+
+  .emailform {
+    font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
+    font-size: 15px;
+    border: 10px solid #0d6efd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 30px;
+    color: #343434;
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0px 0.4em;
+    display: inline-block;
+    margin: 13px;
+    vertical-align: top;
+  }
+  .mailfromtext{
+    color: whitesmoke;
+  }
+  .buttonmailform{
+    font-size: 13px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 20px;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: #196ee2;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 22px;
+    transition: all 0.23s ease-in-out 0s;
+  }
+  .buttonmailform:hover{
+    background-color: #ac27b1;
+    cursor: pointer;
+  }
+
+}
+/*# sourceMappingURL=main.css.map */

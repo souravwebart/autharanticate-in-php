@@ -1,0 +1,77 @@
+ /* FAQ */
+ .faq {
+    background-color: rgb(117, 9, 81);
+    color: rgb(243, 243, 243);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.8rem;
+    transition: 0.4s;
+    border-radius: 25px;
+    border-bottom: 5px rgb(21, 2, 37);
+}
+
+.active,
+.faq:hover {
+    background-color: rgb(41, 2, 73);
+    color: white;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgb(253, 189, 239);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 25px;
+}
+
+.faq:after {
+    content: '+';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    float: right;
+    margin-left: 5px;
+    background-color: rgb(214, 3, 126);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.panel p {
+    font-size: 1.6rem;
+}
+
+.faq span {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-right: 5px;
+    background-color: rgb(214, 3, 126);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.queryh2 {
+    color: rgb(104, 6, 96);
+    font-size: 2.6rem;
+    text-align: left;
+}
+
+.queryp {
+    color: rgb(104, 6, 96);
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.Web-Development-Services-FAQ {
+    background-color: white;
+    padding: 15px;
+}

@@ -1,0 +1,107 @@
+.clientsimg {
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.clientbg {
+    justify-content: center;
+    background-color: #E6EBE3;
+    height: 50%;
+}
+
+.clientright {
+    background-color: rgb(47, 8, 119);
+}
+
+.client-img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px;
+}
+
+.client {
+    height: 300px;
+}
+
+.sliderptext {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.test-signature {
+    color: rgb(253, 175, 230);
+    text-align: center;
+    font-size: 20px;
+}
+.client-left-section-text {
+font-size: 30px;
+text-align: center;
+line-height: 25px;
+color: #4c4c4c;
+font-weight: 700;
+margin: 0;
+transform: rotate(-90deg) translate(-71px,0);
+}
+.clients-sec .container-fluid .client-left-section {
+padding: 20px 0;
+box-shadow: 0 0 35px #000;
+position: absolute;
+left: 0;
+top: 0;
+bottom: 0;
+z-index: 99;
+background: #333;
+width: 70px;
+}
+.clients-sec {
+background: #333;
+text-align: center;
+background-size: cover;
+overflow: hidden;
+position: relative;
+height: 150px;
+}
+
+
+.tech-slideshow {
+height: 130px;
+padding: 20px;
+margin: 0 auto;
+position: relative;
+overflow: hidden;
+/* transform: translate3d(0, 0, 0); */
+margin-top: 18px;
+}
+
+.tech-slideshow > div {
+height: 40px;
+width: 100%;
+background: url(images/cleintslogo.jpg);
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+transform: translate3d(0, 0, 0);
+
+}
+.tech-slideshow .mover-1 {
+animation: moveSlideshow 12s linear infinite;
+}
+.tech-slideshow .mover-2 {
+opacity: 0;
+transition: opacity 0.5s ease-out;
+background-position: 0 -200px;
+animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+opacity: 1;
+}
+
+@keyframes moveSlideshow {
+100% { 
+transform: translateX(-66.6666%);  
+}
+}
